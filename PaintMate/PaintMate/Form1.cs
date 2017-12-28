@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -32,7 +33,48 @@ namespace PaintMate
             paintRequirements();
         }
 
-        private void btnAddDW_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
+        {
+                try
+                {
+                    using (var sfd = new SaveFileDialog())
+                    {
+                        sfd.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+                        DateTime now = DateTime.Now;
+                        sfd.FileName = ("PaintMate RoomInfo.txt");
+                        sfd.FilterIndex = 2;
+
+                        Invoke((Action)(() => { sfd.ShowDialog(); }));
+                        using (System.IO.StreamWriter file = new System.IO.StreamWriter(sfd.FileName))
+                        {
+                            file.WriteLine("Area to paint: " + txtRoomArea.Text + "m²");
+                            file.WriteLine("Area of floor: " + txtFloorArea.Text + "m²");
+                            file.WriteLine("Volume of room: " + txtRoomVolume.Text + "m³");
+                        file.WriteLine(" ");
+                        file.WriteLine("Paint type: " + cmbPaintType.Text);
+                        file.WriteLine("Minimum paint required: " + txtPaintRequired.Text + " Litres");
+                        file.WriteLine("No. of coats: " + txtCoats.Text);
+                        file.WriteLine("Drying time: " + txtDryingTime.Text + " Hours");
+                        file.WriteLine("Recoat time: " + txtRecoatTime.Text + " Hours");
+                        file.WriteLine(" ");
+                        file.WriteLine("Masking Tape Length: " + txtMaskingTapeLength.Text + "m");
+                        file.Close();
+                      }
+                        MessageBox.Show("File saved!", "Paint Mate");
+                    }
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message, "PaintMate");
+                }
+            
+        
+
+
+    }
+
+    private void btnAddDW_Click(object sender, EventArgs e)
         {
             if(float.TryParse(txtDWwidth.Text, out dwW) && float.TryParse(txtDWheight.Text, out dwH))
             {
@@ -41,9 +83,11 @@ namespace PaintMate
                     if (cmbDoorOrWindow.Text == "Door")
                     {
                         maskT = (maskT + (dwH * 2));
+                        maskTlist.Add(dwH * 2);
                     }
                     else if (cmbDoorOrWindow.Text == "Windows")
                     {
+                        maskT = (maskT + ((dwH * 2) + (dwW * 2)));
                         maskTlist.Add((dwH * 2) + (dwW * 2));
                     }
                     DWlist.Add(dwW*dwH);

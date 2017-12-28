@@ -72,6 +72,7 @@
             this.label21 = new System.Windows.Forms.Label();
             this.txtDryingTime = new System.Windows.Forms.TextBox();
             this.txtRecoatTime = new System.Windows.Forms.TextBox();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDW)).BeginInit();
             this.SuspendLayout();
@@ -411,6 +412,7 @@
             this.button1.TabIndex = 20;
             this.button1.Text = "Export Results";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label18
             // 
@@ -493,6 +495,10 @@
             this.txtRecoatTime.ReadOnly = true;
             this.txtRecoatTime.Size = new System.Drawing.Size(81, 20);
             this.txtRecoatTime.TabIndex = 18;
+            // 
+            // saveFileDialog1
+            // 
+            this.saveFileDialog1.DefaultExt = "txt";
             // 
             // PaintMateForm1
             // 
@@ -580,6 +586,7 @@
         private System.Windows.Forms.TextBox txtDryingTime;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
 }
 
