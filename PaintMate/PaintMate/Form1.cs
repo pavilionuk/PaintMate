@@ -85,7 +85,7 @@ namespace PaintMate
                         maskT = (maskT + (dwH * 2));
                         maskTlist.Add(dwH * 2);
                     }
-                    else if (cmbDoorOrWindow.Text == "Windows")
+                    else if (cmbDoorOrWindow.Text == "Window")
                     {
                         maskT = (maskT + ((dwH * 2) + (dwW * 2)));
                         maskTlist.Add((dwH * 2) + (dwW * 2));
