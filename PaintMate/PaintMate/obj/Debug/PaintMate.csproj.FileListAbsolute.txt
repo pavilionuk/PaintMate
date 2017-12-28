@@ -7,3 +7,7 @@ P:\Folders\Documents\GitHub\PaintMate\PaintMate\PaintMate\obj\Debug\PaintMate.Pr
 P:\Folders\Documents\GitHub\PaintMate\PaintMate\PaintMate\obj\Debug\PaintMate.csproj.GenerateResource.Cache
 P:\Folders\Documents\GitHub\PaintMate\PaintMate\PaintMate\obj\Debug\PaintMate.exe
 P:\Folders\Documents\GitHub\PaintMate\PaintMate\PaintMate\obj\Debug\PaintMate.pdb
+P:\Folders\Documents\GitHub\PaintMate\PaintMate\PaintMate\bin\Debug\PaintMate.exe.manifest
+P:\Folders\Documents\GitHub\PaintMate\PaintMate\PaintMate\bin\Debug\PaintMate.application
+P:\Folders\Documents\GitHub\PaintMate\PaintMate\PaintMate\obj\Debug\PaintMate.exe.manifest
+P:\Folders\Documents\GitHub\PaintMate\PaintMate\PaintMate\obj\Debug\PaintMate.application

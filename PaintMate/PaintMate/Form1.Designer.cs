@@ -125,9 +125,10 @@
             // txtRoomWidth
             // 
             this.txtRoomWidth.Location = new System.Drawing.Point(79, 55);
+            this.txtRoomWidth.MaxLength = 6;
             this.txtRoomWidth.Name = "txtRoomWidth";
             this.txtRoomWidth.Size = new System.Drawing.Size(58, 20);
-            this.txtRoomWidth.TabIndex = 6;
+            this.txtRoomWidth.TabIndex = 2;
             this.txtRoomWidth.TextChanged += new System.EventHandler(this.txtRoomWidth_TextChanged);
             // 
             // panel1
@@ -292,7 +293,7 @@
             this.cmbDoorOrWindow.Location = new System.Drawing.Point(12, 135);
             this.cmbDoorOrWindow.Name = "cmbDoorOrWindow";
             this.cmbDoorOrWindow.Size = new System.Drawing.Size(69, 21);
-            this.cmbDoorOrWindow.TabIndex = 10;
+            this.cmbDoorOrWindow.TabIndex = 4;
             // 
             // label7
             // 
@@ -324,39 +325,43 @@
             // txtDWwidth
             // 
             this.txtDWwidth.Location = new System.Drawing.Point(87, 136);
+            this.txtDWwidth.MaxLength = 6;
             this.txtDWwidth.Name = "txtDWwidth";
             this.txtDWwidth.Size = new System.Drawing.Size(73, 20);
-            this.txtDWwidth.TabIndex = 14;
+            this.txtDWwidth.TabIndex = 5;
             // 
             // txtRoomBase
             // 
             this.txtRoomBase.Location = new System.Drawing.Point(16, 55);
+            this.txtRoomBase.MaxLength = 6;
             this.txtRoomBase.Name = "txtRoomBase";
             this.txtRoomBase.Size = new System.Drawing.Size(58, 20);
-            this.txtRoomBase.TabIndex = 15;
+            this.txtRoomBase.TabIndex = 1;
             this.txtRoomBase.TextChanged += new System.EventHandler(this.txtRoomBase_TextChanged);
             // 
             // txtRoomHeight
             // 
             this.txtRoomHeight.Location = new System.Drawing.Point(143, 55);
+            this.txtRoomHeight.MaxLength = 6;
             this.txtRoomHeight.Name = "txtRoomHeight";
             this.txtRoomHeight.Size = new System.Drawing.Size(58, 20);
-            this.txtRoomHeight.TabIndex = 16;
+            this.txtRoomHeight.TabIndex = 3;
             this.txtRoomHeight.TextChanged += new System.EventHandler(this.txtRoomHeight_TextChanged);
             // 
             // txtDWheight
             // 
             this.txtDWheight.Location = new System.Drawing.Point(166, 136);
+            this.txtDWheight.MaxLength = 6;
             this.txtDWheight.Name = "txtDWheight";
             this.txtDWheight.Size = new System.Drawing.Size(73, 20);
-            this.txtDWheight.TabIndex = 17;
+            this.txtDWheight.TabIndex = 6;
             // 
             // btnAddDW
             // 
             this.btnAddDW.Location = new System.Drawing.Point(245, 136);
             this.btnAddDW.Name = "btnAddDW";
             this.btnAddDW.Size = new System.Drawing.Size(36, 23);
-            this.btnAddDW.TabIndex = 18;
+            this.btnAddDW.TabIndex = 7;
             this.btnAddDW.Text = "Add";
             this.btnAddDW.UseVisualStyleBackColor = true;
             this.btnAddDW.Click += new System.EventHandler(this.btnAddDW_Click);
@@ -409,7 +414,7 @@
             this.button1.Location = new System.Drawing.Point(423, 373);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(98, 23);
-            this.button1.TabIndex = 20;
+            this.button1.TabIndex = 9;
             this.button1.Text = "Export Results";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -458,7 +463,7 @@
             this.cmbPaintType.Location = new System.Drawing.Point(87, 346);
             this.cmbPaintType.Name = "cmbPaintType";
             this.cmbPaintType.Size = new System.Drawing.Size(194, 21);
-            this.cmbPaintType.TabIndex = 22;
+            this.cmbPaintType.TabIndex = 8;
             this.cmbPaintType.Text = "Please Select";
             this.cmbPaintType.SelectedIndexChanged += new System.EventHandler(this.cmbPaintType_SelectedIndexChanged);
             // 
