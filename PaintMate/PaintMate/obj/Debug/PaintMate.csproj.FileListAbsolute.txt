@@ -1,1 +1,9 @@
 P:\Folders\Documents\GitHub\PaintMate\PaintMate\PaintMate\bin\Debug\PaintMate.exe.config
+P:\Folders\Documents\GitHub\PaintMate\PaintMate\PaintMate\bin\Debug\PaintMate.exe
+P:\Folders\Documents\GitHub\PaintMate\PaintMate\PaintMate\bin\Debug\PaintMate.pdb
+P:\Folders\Documents\GitHub\PaintMate\PaintMate\PaintMate\obj\Debug\PaintMate.csprojResolveAssemblyReference.cache
+P:\Folders\Documents\GitHub\PaintMate\PaintMate\PaintMate\obj\Debug\PaintMate.PaintMateForm1.resources
+P:\Folders\Documents\GitHub\PaintMate\PaintMate\PaintMate\obj\Debug\PaintMate.Properties.Resources.resources
+P:\Folders\Documents\GitHub\PaintMate\PaintMate\PaintMate\obj\Debug\PaintMate.csproj.GenerateResource.Cache
+P:\Folders\Documents\GitHub\PaintMate\PaintMate\PaintMate\obj\Debug\PaintMate.exe
+P:\Folders\Documents\GitHub\PaintMate\PaintMate\PaintMate\obj\Debug\PaintMate.pdb
