@@ -6,7 +6,9 @@ Clone the repository and then double click the "Setup.exe" in the Install folder
 
 # Features
 Determine paint requirements given the room dimensions and paint type
+
 Determine length of masking tape required to paint the room with no overspill
+
 Save the output to a text file
 
 # Sources and references
